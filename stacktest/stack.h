@@ -19,5 +19,5 @@ typedef struct {
 int Init(Stack &s);
 int Push(Stack &s, ElemType e);
 int Pop(Stack &s, ElemType &e);
-
+bool StackEmpty(Stack &s);
 #endif

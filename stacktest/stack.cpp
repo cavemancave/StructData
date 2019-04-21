@@ -34,3 +34,7 @@ int Pop(Stack &s, ElemType &e) {
 	s.len--;
 	return OK;
 }
+
+bool StackEmpty(Stack &s) {
+	return (s.len == 0) ? true : false;
+}
